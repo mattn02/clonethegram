@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		462D0F53B526183FE0D1F8D3 /* Pods_finstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 243CEE0C5309EAE4C22E1894 /* Pods_finstagramTests.framework */; };
 		4747108D9B8DC93001A5C792 /* Pods_finstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5B2BFEFFA15A9C9A287C20 /* Pods_finstagram.framework */; };
+		6A05BB6829036DE30095B49D /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A05BB6729036DE30095B49D /* CommentCell.swift */; };
 		6AD35A1528FA3B140078EEF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD35A1428FA3B140078EEF4 /* AppDelegate.swift */; };
 		6AD35A1728FA3B140078EEF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD35A1628FA3B140078EEF4 /* SceneDelegate.swift */; };
 		6AD35A1C28FA3B140078EEF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD35A1A28FA3B140078EEF4 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		1D15E4BF343F0AB0CA20ACFD /* Pods-finstagram-finstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finstagram-finstagramUITests.release.xcconfig"; path = "Target Support Files/Pods-finstagram-finstagramUITests/Pods-finstagram-finstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		243CEE0C5309EAE4C22E1894 /* Pods_finstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_finstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6727858BEF57DA0A2E69E62C /* Pods_finstagram_finstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_finstagram_finstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A05BB6729036DE30095B49D /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		6AD35A1128FA3B140078EEF4 /* finstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD35A1428FA3B140078EEF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AD35A1628FA3B140078EEF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				6AD35A4628FA42090078EEF4 /* FeedViewController.swift */,
 				6AD35A4828FA4B530078EEF4 /* CameraViewController.swift */,
 				6AD35A4A28FA573F0078EEF4 /* PostCell.swift */,
+				6A05BB6729036DE30095B49D /* CommentCell.swift */,
 			);
 			path = finstagram;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				6AD35A4728FA42090078EEF4 /* FeedViewController.swift in Sources */,
 				6AD35A1728FA3B140078EEF4 /* SceneDelegate.swift in Sources */,
 				6AD35A4B28FA573F0078EEF4 /* PostCell.swift in Sources */,
+				6A05BB6829036DE30095B49D /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
